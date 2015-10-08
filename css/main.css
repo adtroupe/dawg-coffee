@@ -1,1 +1,93 @@
-/* Your stylesheet goes here */
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+
+body {
+	font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	background-color: #E9EAEE;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Raleway", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+body h2 {
+	color: #BC6026;
+}
+
+@media screen and (min-width: 768px) {
+	body {
+		font-size: 20px;
+	}
+	h2 {
+		text-align: center;
+		margin-bottom: 1em;
+	}
+	body>.navbar {
+		background-color: rgba(24, 28, 34, 0.8);
+	}
+	.navbar>.container>div>.nav>.navItem {
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+	#header{
+		background-image: url("../img/background-sm.jpg");
+		background-repeat: no-repeat;
+		min-height: 550px;
+		color:white;
+		text-align: right;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	#header {
+		background-image: url("../img/background-md.jpg");
+	}
+	h1{
+		font-size: 4em;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	#header{
+		background-image: url("../img/background-lg.jpg");
+	}
+}
+
+@media screen and (max-width: 768px) {
+	#header>p {
+		display:none;
+	}
+}
+
+.navbar {
+	position: fixed;
+	background-color: #181C22;
+	min-height: initial;
+}
+
+#cupIcon {
+	margin-left: 15px;
+	height: 1em;
+}
+
+.nav>.navItem, .nav>.navItem>a {
+	display: inline;
+	padding: 0.5em;
+	font-variant: small-caps;
+}
+
+.navbar>.container>div>.nav>.navItem>a {
+	color:white;
+}
+
+.navbar>.container>div>.nav>.navItem>a:hover {
+	color:#D87E28;
+}
+
+#header {
+	padding-top: 3em;
+}
