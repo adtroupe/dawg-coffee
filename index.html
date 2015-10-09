@@ -12,23 +12,30 @@
 
 	<body>
 		<nav class="navbar navbar-default">
-			<div class="container">
-				<div>
-					<ul class="nav navbar-nav">
-						<li class="navItem"><a href="#header"><img id="cupIcon" src="svg\brand.svg" /></a></li>
-						<li class="navItem"><a href="#cafe">Cafe</a></li>
-						<li class="navItem"><a href="#menu">Menu</a></li>
-						<li class="navItem"><a href="#story">Story</a></li>
-						<li class="navItem"><a href="order.html">Order</a></li>
-					</ul>
-				</div>
+			<div>
+				<ul class="nav navbar-nav">
+					<li class="navItem">
+						<a href="#headerText">
+							<img id="cupIcon" src="svg\brand.svg"/>
+							<svg viewbox= "0 0 1em 1em">
+								<use xlink:href="svg\brand.svg"></use>				
+							</svg>
+						</a>							
+					</li>
+					<li class="navItem"><a href="#cafe">Cafe</a></li>
+					<li class="navItem"><a href="#menu">Menu</a></li>
+					<li class="navItem"><a href="#story">Story</a></li>
+					<li class="navItem"><a href="order.html">Order</a></li>
+				</ul>
 			</div>
 		</nav>
-
-		<div id="header" class="container">
-			<h1>Dawg Coffee</h1>
-			<p>Caffeinating Sleepy Huskies Since 2015</p>
-		</div>
+		
+		<header>
+				<div id="headerText" class="container">
+					<h1>Dawg Coffee</h1>
+					<p>Caffeinating Sleepy Huskies Since 2015</p>
+				</div>
+		</header>
 
 		<div id="headline" class="container">
 			<img class="icon" src="svg\brand.svg" />
@@ -59,7 +66,7 @@
 		<div id="menu" class="container">
 			<h2>Menu</h2>
 			<div class="row">
-				<div class="col-sm-6">
+				<div class="col-sm-6 menuPanel">
 					<h3>Drinks</h3>
 					<dl>
 						<dt>Espresso</dt>
@@ -70,7 +77,7 @@
 						<dd>chocolate, milk, and espresso, what could be better?</dd>
 					</dl>
 				</div>
-				<div class="col-sm-6">
+				<div class="col-sm-6 menuPanel">
 					<h3>Treats</h3>
 					<dl>
 						<dt>Muffins &amp; Scones</dt>
@@ -98,12 +105,12 @@
 			</p>
 		</div>
 
-		<footer class="container">
+		<footer id="footer" class="container">
 			<div class="row">
-				<div class="col-sm-3">
+				<div class="col-sm-3 footerPanel">
 					<p>&copy; 2015 Dawg Coffee</p>
 				</div>
-				<div class="col-sm-9">
+				<div class="col-sm-9 footerPanel">
 					<p id="footerRight">Icons by 
    						<a href="http://www.freepik.com" title="Freepik">Freepik</a>, 
     					<a href="http://www.bogdanrosu.com" title="Bogdan Rosu">Bogdan Rosu</a>
