@@ -8,6 +8,8 @@ body {
 	font-weight: 300;
 	font-size: 16px;
 	background-color: #E9EAEE;
+	padding:0;
+	margin:0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -40,6 +42,9 @@ body h2 {
 		color:white;
 		text-align: right;
 	}
+	#footerRight {
+		text-align: right;
+	}
 }
 
 @media screen and (min-width: 992px) {
@@ -58,7 +63,7 @@ body h2 {
 }
 
 @media screen and (max-width: 768px) {
-	#header>p {
+	#header>p, #headlineIcon {
 		display:none;
 	}
 }
@@ -91,3 +96,62 @@ body h2 {
 #header {
 	padding-top: 3em;
 }
+
+#headline{
+	text-align: center;
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+
+#headline>p{
+	font-style: italic;
+	font-size: 1.25em;
+}
+
+.icon{
+	height:1.5em;
+	margin-bottom: 1em;
+}
+
+#cafe {
+	padding-top: 2em;
+	padding-bottom: 1em;
+	text-align: center;
+}
+
+#cafe, #story {
+	background-color: #dbdce3;
+}
+
+#cafe i {
+	color: black;
+}
+
+.infoPanel{
+	margin-bottom: 1em;
+}
+
+#mapImage {
+	border-radius: 5px;
+}
+
+dd {
+	font-style: italic;
+	margin-left: 1em;
+}
+
+#story img {
+	float: right;
+	max-height: 300px;
+	margin-left: 1em;
+	border-radius: 5px;
+}
+
+footer {
+	border-top: 3px #D87E28;
+	background-color: #afb3c2;
+	font-size: 12px;
+	padding: 1em;
+	clear: both;
+}
+
