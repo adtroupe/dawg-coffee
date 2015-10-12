@@ -82,7 +82,7 @@ body h2 {
 }
 
 @media screen and (max-width: 768px) {
-	#headerText>p, #headlineIcon {
+	#headerText>p, #headerIcon {
 		display:none;
 	}
 }
@@ -95,7 +95,7 @@ body h2 {
 	border-radius: 0;
 }
 
-#cupIcon {
+#navIcon {
 	margin-left: 15px;
 	height: 1em;
 }
@@ -108,10 +108,12 @@ body h2 {
 
 .navbar>div>.nav>.navItem>a {
 	color: white;
+	fill: currentColor;
 }
 
-.navbar>div>.nav>.navItem>a:hover {
+.navbar>div>.nav>.navItem>a:hover, .icon, #cupIcon {
 	color:#D87E28;
+	fill: currentColor;
 }
 
 #headerText {

@@ -15,5 +15,5 @@ This folder contains your submission for the [responsive challenge](http://facul
 	Approximately 15 hours
 
 ##### 5. Did you encounter any problems in this challenge we should warn students about in the future? How can we make the challenge better? #####
-	The most confusing thing for me, that I emailed the instructor about without a response and wasn't able to figure out on my own, was how to structure the svg's solely from that linked website that I didn't find very helpful. 
+	The most confusing thing for me, that I emailed the instructor about without a response but was able to figure out on my own, was how to structure the svg's solely from that linked website that I didn't find very helpful. 
 
